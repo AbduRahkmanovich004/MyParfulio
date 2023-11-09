@@ -1,0 +1,304 @@
+@font-face {
+  font-family: Nico;
+  src: url(../font/NicoMoji-Regular.ttf);
+}
+:root {
+  --braun: #e0b574;
+  --blue-light: #61b2c5;
+  --text-light: #3e4755;
+  --black: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nico;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  background: linear-gradient(90deg, rgba(163, 163, 163, 0.655) 5.39%, rgba(0, 0, 0, 0.512) 104.31%);
+}
+
+header,
+nav,
+section,
+footer,
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 120rem;
+}
+
+nav .container {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .container img {
+  height: 9rem;
+}
+nav .container a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #000;
+}
+
+header .container {
+  display: flex;
+  justify-content: end;
+}
+header .container .stkyleft {
+  align-items: end;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  position: relative;
+}
+header .container .stkyleft h1 {
+  text-align: right;
+  font-size: 7rem;
+  color: var(--text-light);
+}
+header .container .stkyleft .languages {
+  zoom: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100rem;
+}
+header .container .stkyleft .languages .littleP {
+  margin: 8rem 0 4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  gap: 2px;
+}
+header .container .stkyleft .languages .littleP h3 {
+  font-size: 3.6rem;
+}
+header .container .stkyleft .languages .littleP p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  width: 8rem;
+  text-align: left;
+}
+header .container .stkyleft .languages .card {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+header .container .stkyleft .languages .card .img {
+  display: flex;
+  align-items: center;
+  height: 70%;
+}
+header .bigimg {
+  position: absolute;
+  top: -10px;
+  left: -395px;
+  zoom: 0.9;
+}
+header .aralash {
+  position: absolute;
+  top: -66rem;
+  left: -292rem;
+  zoom: 0.5;
+  z-index: -1;
+}
+header .kok {
+  position: absolute;
+  right: -3249px;
+  top: -3850px;
+  zoom: 0.5;
+  z-index: -1;
+}
+header h2 {
+  position: absolute;
+  rotate: 90deg;
+  left: 14px;
+  bottom: 232px;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.work .container {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  position: relative;
+}
+.work .container h2 {
+  margin-top: 19rem;
+  font-size: 8rem;
+  padding-right: 17rem;
+}
+.work .container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.work .container .cards .card {
+  margin-top: 10rem;
+  width: 40%;
+  overflow: hidden;
+  position: relative;
+}
+.work .container .cards .card a {
+  position: absolute;
+  z-index: 3;
+  bottom: -40%;
+  left: 0;
+  width: 100%;
+  background: rgba(7, 7, 7, 0.6941176471);
+  text-align: center;
+  padding: 10rem 4rem;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin: 5rem 0 10rem;
+  transform: translate(100%, 100%);
+  transition: 0.4s;
+}
+.work .container .cards .card a img {
+  width: 3rem;
+}
+.work .container .cards .card:hover a {
+  transform: translate(0, 0);
+}
+.work .container .kok1 {
+  position: absolute;
+  left: -1946px;
+  z-index: -1;
+  zoom: 0.5;
+  top: 826px;
+  transform: rotateY(180deg);
+  rotate: 90deg;
+}
+.work .container .kok2 {
+  position: absolute;
+  zoom: 0.5;
+  left: 356px;
+  z-index: -1;
+  top: 900px;
+  transform: rotateY(180deg);
+  rotate: 90deg;
+}
+.work .container .jigar0 {
+  position: absolute;
+  zoom: 0.5;
+  left: -2814px;
+  z-index: -1;
+  top: 1169px;
+  transform: rotateY(180deg);
+  rotate: 90deg;
+}
+.work .container .jigar1 {
+  position: absolute;
+  zoom: 0.5;
+  left: -341px;
+  z-index: -1;
+  top: 1129px;
+  transform: rotateY(180deg);
+  rotate: 90deg;
+}
+.work .container .jigar2 {
+  position: absolute;
+  zoom: 0.7;
+  left: 1482px;
+  z-index: -1;
+  top: -106px;
+  transform: rotateY(180deg);
+  rotate: 90deg;
+}
+
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .container h2 {
+  margin-top: 19rem;
+  font-size: 8rem;
+}
+.contact .container p {
+  text-align: center;
+  margin-top: 4rem;
+  width: 40%;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.contact .container .cards {
+  margin: 10rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+.contact .container .cards a {
+  height: 24rem;
+  padding: 1rem;
+  display: flex;
+  width: 30rem;
+  padding: 20px 0px 46px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 39px;
+  border-radius: 20px;
+  background: linear-gradient(151deg, rgba(255, 255, 255, 0.68) 3.1%, #987806 105.9%, #ffc700 105.91%);
+  position: relative;
+  box-shadow: 0px 0px 12px 0px rgba(58, 178, 171, 0.49);
+  overflow: hidden;
+}
+.contact .container .cards a p {
+  padding-top: 2rem;
+  bottom: 0;
+  transform: translateY(100%);
+  position: absolute;
+  font-size: 1.5rem;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2823529412);
+  height: 5rem;
+  width: 100%;
+  transition: 0.2s border-radius, 1s background, 0.5s transform;
+  border-radius: 500px 500px 0 0;
+}
+.contact .container .cards a:hover p {
+  border-radius: 0 0 0 0;
+  transform: translateY(0);
+  background: rgba(0, 0, 0, 0);
+}
+
+footer {
+  overflow: hidden;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.407), rgba(255, 0, 0, 0));
+}
+footer .container {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+  border-top: 2px solid #000;
+}
+
+.div {
+  transform: translateX(9rem);
+}/*# sourceMappingURL=style.css.map */
